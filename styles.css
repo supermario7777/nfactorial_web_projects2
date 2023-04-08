@@ -1,5 +1,6 @@
 body{
     margin: 0px;
+    background-color: #F1F1F1;
 }
 
 
@@ -8,7 +9,7 @@ body{
 }
 
 header{
-    width: auto;
+    width: 100%;
     height: 62px;
     background: #F1F1F1;
     display: flex;
@@ -52,6 +53,7 @@ header div p{
     color: #081E34;
     margin-right: 28px;
     white-space: nowrap;
+    text-decoration: none;
 }
 
 .menu_wrapper button{
@@ -73,3 +75,352 @@ header div p{
     white-space: nowrap;
     border: none;
 }
+/* Section get_hired start */
+.get_hired {
+    width: 100%;
+    height: 620px;
+    background: #F1F1F1;
+    /* padding: 0px 80px; */
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 80px;
+    /* margin: 0px auto; */
+    gap: 20px;
+}
+.get_hired div h1{
+    /* width: 100%;
+    height: 50%; */
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 64px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+.get_hired div p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    /* display: flex;
+    align-items: center; */
+    color: #000000;
+    width: 100%;
+}
+.get_hired div button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 24px;
+    gap: 10px;
+    /* width: 144px;
+    height: 50px; */
+    background: #712FFF;
+    border-radius: 100px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;    
+}
+#main-image, #dollar, #fire{
+    position: relative;
+}
+#main-image{
+    z-index: 1;
+    border-radius: 35px;
+    width: 525px;
+    height: 350px;
+}
+#dollar{
+    z-index: 2;
+    width: 139px;
+    height: 181px;
+    left: 250px;
+    top: -250px
+}
+#fire{
+    z-index: 3;
+    width: 148px;
+    height: 172px;
+    left: 250px;
+    top: -250px;
+}
+/* Section get_hired end */
+
+/* Section how_it_works start */
+.how_it_works{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px 80px;
+    gap: 86px;
+    width: auto;
+    height: 562px;
+    background: #E1DEE7;
+    border-radius: 32px;
+    text-align: center;
+}
+
+.how_it_works_bottom {
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.how_it_works p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000;
+    margin-bottom: 0px;
+}
+
+.how_it_works h1{
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 56px;
+    color: #000000;
+    margin-top: 12px;
+}
+
+#how_it_works_bottom1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000; 
+    display: flex;
+    justify-content: flex-start;
+}
+
+#how_it_works_bottom2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#how_it_works_img{
+    display: flex;
+    justify-content: flex-start;
+}
+/* Section how_it_works end */
+
+/* Section lets_get_it-started start */
+
+.lets_get_it-started{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px 80px;
+    /* gap: 128px; */
+    width: 50%;
+    height: 422px;
+}
+
+.searchbutton{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.lets_get_it-started h1{
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 64px;
+    color: #000000;
+    margin-bottom: 0px;
+}
+
+.lets_get_it-started p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    margin-top: 32px;
+    margin-bottom: 0px;
+}
+
+.lets_get_it-started div{
+    margin-top: 32px;
+}
+
+.search-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    width: 619px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #E1DEE7;
+    border-radius: 12px;
+    
+}
+
+.findbutton{
+    width: 106px;
+    height: 50px;
+    background: #712FFF;
+    border-radius: 100px;
+    border: none;  
+    white-space: nowrap;
+    color: white;
+    padding: 16px 24px;
+    gap: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.lets_get_it-started_input{
+    width: 550px;
+    height: 40px;
+    background: transparent;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+}
+/* Section lets_get_it-started end */
+
+/* Section upload_your_cv start */
+
+.upload_your_cv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 64px 80px;
+    gap: 87px;
+    width: auto;
+    height: 548px;
+}
+
+.secondary-image{
+    border-radius: 35px;
+    width: 525px;
+    height: 350px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+
+.upload_your_cv_h1{
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 56px;
+    color: #000000;
+    margin-bottom: 32px;
+}
+
+.upload_your_cv_p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin-top: 0px;
+    margin-bottom: 32px;
+}
+
+.upload_your_cv_btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 24px 16px 16px;
+    gap: 8px;    
+    width: 114px;
+    height: 50px;    
+    background: #712FFF;
+    border-radius: 100px;
+    border: none;
+    margin-top: 0px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+
+}
+/* Section upload_your_cv end */
+
+/* Section all_about_us start */
+.all_about_us{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 80px;
+    gap: 32px;
+    width: auto;
+    height: 120px;
+    background: #FFFFFF;
+    border-radius: 32px 32px 0px 0px;
+}
+
+.all_about_us_wrapper a{
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #081E34;
+}
+
+.Twitter, .Instagram{
+    width: 24px;
+    height: 24px;
+}
+
+.all_about_us p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #081E34;
+    opacity: 0.5;
+}
+
+/* Section all_about_us end */
+
+
