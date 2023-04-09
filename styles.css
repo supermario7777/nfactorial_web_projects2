@@ -1,6 +1,7 @@
 body{
-    margin: 0px;
+    margin: 0px auto;
     background-color: #F1F1F1;
+    max-width: 1440px;
 }
 
 
@@ -9,13 +10,14 @@ body{
 }
 
 header{
-    width: 100%;
+    width: auto;
     height: 62px;
     background: #F1F1F1;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0px 80px;
+    margin: 0px auto;
 }
 
 header div img{
@@ -83,6 +85,7 @@ header div p{
     align-items: center;
     padding: 100px 80px;
     gap: 0px;
+    margin: 0px auto;
 }
 .get_hired div h1{
     font-family: 'Kanit';
@@ -146,6 +149,7 @@ header div p{
     background: #E1DEE7;
     border-radius: 32px;
     text-align: center;
+    margin: 0px auto;
 }
 
 .how_it_works_bottom {
@@ -211,8 +215,9 @@ header div p{
     flex-direction: column;
     justify-content: center;
     padding: 100px 80px;
-    width: 50%;
+    /* width: 50%; */
     height: 422px;
+    margin: 0px auto;
 }
 
 .searchbutton{
@@ -299,6 +304,7 @@ header div p{
     gap: 87px;
     width: auto;
     height: 548px;
+    margin: 0px auto;
 }
 
 .secondary-image{
@@ -363,10 +369,11 @@ header div p{
     justify-content: space-between;
     align-items: center;
     padding: 32px 60px 32px 80px;
-    width: auto;
+    width: auto;    
     height: 120px;
     background: #FFFFFF;
     border-radius: 32px 32px 0px 0px;
+    margin: 0px auto;
 }
 
 .all_about_us_wrapper a{
@@ -424,6 +431,7 @@ header div p{
     height: 52px;
     background-color: #FFFFFF;
     margin-top: 0px;
+    margin: 0px auto;
 }
 /* Section footer end */
 

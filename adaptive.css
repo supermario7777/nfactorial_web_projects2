@@ -1,0 +1,39 @@
+@media only screen and (max-width: 1200px){
+
+}
+
+@media only screen and (max-width: 992px){
+    
+}
+
+@media only screen and (max-width: 768px){
+    
+}
+
+
+@media only screen and (max-width: 360px){
+
+.get_hired {
+    width: 100%;
+    height: 620px;
+    background: #F1F1F1;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 80px;
+    gap: 0px;
+}
+
+.upload_your_cv {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-between;
+    padding: 64px 80px;
+    gap: 87px;
+    width: auto;
+    height: 548px;
+}
+
+}
